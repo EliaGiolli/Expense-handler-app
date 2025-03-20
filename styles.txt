@@ -1,0 +1,20 @@
+
+Highlight: #D4AF37 (Oro) → Da usare con parsimonia per enfatizzare CTA (Call To Action), hover sugli elementi e dettagli eleganti.
+Dettagli: #C0C0C0 (Argento) → Può essere utilizzato per bordi sottili, separatori, ombre leggere su sfondo scuro.
+🖥 2️⃣ Applicazione pratica nei componenti del sito
+✅ Navbar e footer → Nero (#121212) con testo in Argento (#C0C0C0) e dettagli dorati per un effetto di lusso.
+✅ Pulsanti (CTA, Login, Sign Up, ecc.) → Oro (#D4AF37) su sfondo nero per un contrasto forte e attraente.
+✅ Hover ed effetti interattivi → Pulsanti dorati che diventano leggermente più scuri in hover (#B28F2F per un effetto "press").
+✅ Testi principali → Bianco sporco (#F8F8F8) su nero per alta leggibilità.
+✅ Box, card e sezioni secondarie → Argento (#C0C0C0) o bianco sporco (#F8F8F8) per contrastare lo sfondo scuro.
+
+🔥 3️⃣ Esempio di combinazione per sezioni del sito
+Sezione	Sfondo	Testo/Elementi
+Hero Section (intro)	Nero #121212	Testo bianco sporco #F8F8F8, pulsanti oro #D4AF37
+Cards / Box info	Argento #C0C0C0	Testo nero #121212, dettagli oro #D4AF37
+Sezioni secondarie	Bianco sporco #F8F8F8	Testo nero #121212, dettagli argento #C0C0C0
+Navbar & Footer	Nero #121212	Testo argento #C0C0C0, hover oro #D4AF37
+✨ 4️⃣ Stile generale
+✅ Tipografia: Caratteri eleganti e moderni, magari un sans-serif come Montserrat o Poppins, combinato con un serif sottile per titoli importanti.
+✅ Icone: Minimal e sottili, preferibilmente in oro su sfondo nero o argento su bianco sporco.
+✅ Animazioni: Effetti fade-in o hover dorati per dare un look premium senza esagerare con le transizioni.
