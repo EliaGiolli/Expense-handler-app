@@ -1,12 +1,14 @@
 import React from 'react'
-import Button from './components/reusable/Button'
-import Navbar from './components/layouts/Navbar'
+import ImgParallaxOne from './layouts/ImgParallaxOne'
+import Card from './layouts/Card'
+import ImgParallaxTwo from './layouts/ImgParallaxTwo'
 
 function App() {
   return (
     <>
-      <Navbar />
-    
+     <ImgParallaxOne />
+      <Card />
+      <ImgParallaxTwo />
     </>
   )
 }
