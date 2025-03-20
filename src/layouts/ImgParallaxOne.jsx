@@ -16,7 +16,9 @@ function ImgParallaxOne() {
                  flex flex-col justify-center items-center text-center bg-[#121212] max-h-[200px] p-4 text-lg rounded-lg'
                 >
                 <h2 className='uppercase text-[#F8F8F8] text-2xl md:text-xl p-2 md:p-3 mb-2'>Welcome to our brand new expense tracker app!</h2>
-                <Button />
+                <Button variant='button'>
+                  Try it out!
+                </Button>
             </div>
         </div>
     </Parallax>

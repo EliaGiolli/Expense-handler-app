@@ -80,7 +80,7 @@ function Card() {
             onChange={(e) => setNewExpense({...newExpense, amount: e.target.value})}
             placeholder="Importo"
           />
-          <Button onClick={handleAddExpense}>Add your amount</Button>
+          <Button onClick={handleAddExpense} variant='button'>Add your amount</Button>
         </div>
         
         <div className='mt-4'>
@@ -90,12 +90,13 @@ function Card() {
               <div key={expense.id} className='flex justify-between items-center bg-white p-2 rounded'>
                 <span>{expense.description}</span>
                 <span>€{expense.amount.toFixed(2)}</span>
-                <button 
+                <Button 
                   onClick={() => dispatch({ type: ACTIONS.DELETE_EXPENSE, payload: expense.id })}
-                  className='text-red-500 hover:text-red-700'
+                  
+                  variant='expTracker'
                 >
-                  Elimina
-                </button>
+                  Cancel
+                </Button>
               </div>
             ))}
           </div>
