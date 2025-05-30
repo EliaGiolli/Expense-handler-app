@@ -131,7 +131,7 @@ MIT License - feel free to use this project as a learning resource!
 
 ## 👨‍💻 Author
 
-Elia Giolli - [Your GitHub Profile]
+Elia Giolli - [[My-LinkedIn Profile]](https://www.linkedin.com/in/eliagiolli/)
 
 ---
 Made with ❤️ and Redux Toolkit
