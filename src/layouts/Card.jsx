@@ -25,14 +25,15 @@ const reducer = (state, action) => {
         expenses: [...state.expenses, action.payload],
         total: state.total + action.payload.amount
       }
-    case ACTIONS.DELETE_EXPENSE:
+    case ACTIONS.DELETE_EXPENSE: {
       const expenseToDelete = state.expenses.find(exp => exp.id === action.payload)
       return {
         ...state,
         expenses: state.expenses.filter(exp => exp.id !== action.payload),
         total: state.total - expenseToDelete.amount
       }
-    case ACTIONS.UPDATE_EXPENSE:
+    }
+    case ACTIONS.UPDATE_EXPENSE: {
       const updatedExpenses = state.expenses.map(exp => 
         exp.id === action.payload.id ? action.payload : exp
       )
@@ -42,6 +43,7 @@ const reducer = (state, action) => {
         expenses: updatedExpenses,
         total: newTotal
       }
+    }
     default:
       return state
   }
